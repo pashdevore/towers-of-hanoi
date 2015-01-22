@@ -1,0 +1,26 @@
+* {
+
+}
+
+.tower {
+  position: relative;
+  margin-top: 100px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  height: 40px;
+  background-color: lightgrey;
+  float:left;
+}
+
+.disk {
+  position:relative;
+  box-sizing: border-box;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.selected {
+  background-color: chartreuse;
+}
